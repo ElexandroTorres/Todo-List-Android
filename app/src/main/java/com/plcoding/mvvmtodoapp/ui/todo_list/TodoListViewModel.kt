@@ -12,6 +12,9 @@ import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
+
+/*Quando se usar o @Inject constructor, será procurado um tipo TodoRepository para criar uma instancia
+* necessaria para sua utilização naquela parte do aplicativo. */
 @HiltViewModel
 class TodoListViewModel @Inject constructor(
     private val repository: TodoRepository

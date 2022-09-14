@@ -2,7 +2,7 @@ package com.plcoding.mvvmtodoapp.data
 
 import kotlinx.coroutines.flow.Flow
 
-interface TodoRepository {
+interface  TodoRepository {
 
     suspend fun insertTodo(todo: Todo)
 
